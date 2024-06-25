@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Tic-Tak-Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="column col1">
+            <div class="row row1" onclick="change(1)"><img id="1" src="" alt=""></div>
+            <div class="row row2" onclick="change(4)"><img id="4" src="" alt=""></div>
+            <div class="row row3" onclick="change(7)"><img id="7" src="" alt=""></div>
+        </div>
+        <div class="column col2">
+            <div class="row row1" onclick="change(2)"><img id="2" src="" alt=""></div>
+            <div class="row row2" onclick="change(5)"><img id="5" src="" alt=""></div>
+            <div class="row row3" onclick="change(8)"><img id="8" src="" alt=""></div>
+        </div>
+        <div class="column col3">
+            <div class="row row1" onclick="change(3)"><img id="3" src="" alt=""></div>
+            <div class="row row2" onclick="change(6)"><img id="6" src="" alt=""></div>
+            <div class="row row3" onclick="change(9)"><img id="9" src="" alt=""></div>
+        </div>
+    </div>
+    <br>
+    <div class="button">
+        <span>Turn : </span><span id="selected">Cross - X</span><img id="" src="" alt="">
+        <br>
+        <span>Result : </span><span id="result">Not Started</span>
+        <br><br>
+        <button id="reset" onclick="reload()">Reset</button>
+    </div>    
+</body>
+</html>
